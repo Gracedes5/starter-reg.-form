@@ -8,7 +8,7 @@
     <form>
         <div>
         <label for="name">Name:</label>
-        <input type="text" id="Name" name="Name" required>
+        <input type="text" id="name" name="name" required>
         </div>
 
     <br>
@@ -20,7 +20,7 @@
 
         <div>
         <label for="password">Password:</label>
-        <input type="password" id="Password" name="name" required maxlength="4">
+        <input type="password" id="password" name="name" required maxlength="4">
         </div>
     
     <br>
@@ -33,18 +33,19 @@
     
         <div>
         <label for="email">Email:</label>
-        <input type="email" id="Email" name="name" required>
+        <input type="email" id="email" name="email" required>
         </div>
        
     <br>
-        <input type="file">
+        <label for="file">Upload Document:</label>
+        <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.jpg,.png" required>
     <br>
 
     <br>
         <div>
             <label for="country">Country:</label>
             <select id="country" name="Country"> 
-                <option value="Select a Country"></option>
+                <option value="disabled">Select a Country</option>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Algeria">Algeria</option>
                 <option value="Angola">Angola</option>
